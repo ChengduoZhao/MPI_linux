@@ -9,7 +9,6 @@ make install
 sudo echo "export PATH=/usr/local/mpich/bin:${PATH}  
 export LD_LIBRARY_PATH=/usr/local/mpich/lib:${LD_LIBRARY_PATH}  
 export MANPATH=/usr/local/mpich/share/man:${MANPATH}" >> profile.txt
-
 sudo cat profile.txt >> /etc/profile
 sudo rm profile.txt
 sudo source
