@@ -1,2 +1,3 @@
 # MPI_linux
-GPU cluster
+MPI install
+GPU cluster 
