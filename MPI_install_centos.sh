@@ -11,6 +11,7 @@ export LD_LIBRARY_PATH=/usr/local/mpich/lib:${LD_LIBRARY_PATH}
 export MANPATH=/usr/local/mpich/share/man:${MANPATH}" >> profile.txt
 
 sudo cat profile.txt >> /etc/profile
+sudo rm profile.txt
 sudo source
 
 sudo sh -c 'echo "/usr/local/mpich/lib" > /etc/ld.so.conf.d/mpi.conf'
