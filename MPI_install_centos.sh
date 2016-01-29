@@ -1,4 +1,5 @@
 echo "Downloading mpich-3.2.tar.gz"
+yum install gcc-gfortran
 wget http://www.mpich.org/static/downloads/3.2/mpich-3.2.tar.gz
 tar -zxvf mpich-3.2.tar.gz
 cd mpich-3.2
